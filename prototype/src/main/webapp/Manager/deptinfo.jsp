@@ -20,7 +20,7 @@
 <div><h4 class="deptInfoTitle">부서 명</h4></div>
 
 <select id="selectDept" name="SelectBox" class="select-box selectDeptBox">
-					<option disabled checked>부서 선택</option>
+					<option disabled selected>부서 선택</option>
 					<option value="">인사부</option>
 					<option value="">회계부</option>
 					<option value="">마케팅부</option>

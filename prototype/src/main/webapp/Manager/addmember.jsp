@@ -54,7 +54,7 @@
 					<input id="newMemberPassword" class="inputBox" type="text"><br>
 
 				<select id="selectPosition" name="SelectBox" class="select-box">
-					<option disabled checked>직위 선택</option>
+					<option disabled selected>직위 선택</option>
 					<option value="">부장</option>
 					<option value="">차장</option>
 					<option value="">과장</option>
@@ -65,7 +65,7 @@
 				<br>
 				
 				<select id="selectDept" name="SelectBox" class="select-box">
-					<option disabled checked>부서 선택</option>
+					<option disabled selected>부서 선택</option>
 					<option value="">인사부</option>
 					<option value="">회계부</option>
 					<option value="">마케팅부</option>
