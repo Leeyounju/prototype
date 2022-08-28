@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
 <div id="menuList">
-<div id="logo"><img src="image/Logo.png" ></div>
+<div id="logo"><img src="/image/Logo.png" ></div>
 
 
   <div class="wrapper">

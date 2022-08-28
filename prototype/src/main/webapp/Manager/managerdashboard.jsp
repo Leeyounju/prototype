@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
-<title>Insert title here</title>
+<title>managerDashboard</title>
 <script>
 
 </script>
@@ -27,8 +27,9 @@
 	<div id="managerInfo">
 		<div id="managerList_title">
 			<div id="manager_name">이름</div>
-			<div id="manager_email">이메일</div>
 			<div id="manager_dept">부서</div>
+			<div id="manager_num">전화번호</div>
+			<div id="manager_dir">회선번호</div>
 		</div>
 	</div>
 <hr>

@@ -17,24 +17,24 @@
 		<td>완<a href="Manager/managerdashboard.jsp">관리자 페이지</a></td>
 	</tr>
 	<tr>	
-		<td>css수정 필요<a href="Manager/accessIp.jsp">accessIp.jsp</a></td>	
+		<td>완<a href="Manager/accessIp.jsp">accessIp.jsp</a></td>	
 	</tr>
 	<tr>
-		<td>css수정 필요<a href="Manager/memberlog.jsp">memberlog.jsp</a></td>
+		<td>완<a href="Manager/memberlog.jsp">memberlog.jsp</a></td>
 	</tr>
 
 	
 	<tr>	
-		<td>css수정 필요<a href="Manager/setmanagerprivilege.jsp">setmanagerprivilege.jsp</a></td>
+		<td>완<a href="Manager/setmanagerprivilege.jsp">setmanagerprivilege.jsp</a></td>
 	</tr>
 	<tr>
-		<td><a href="Manager/allmembermanage.jsp">allmembermanage.jsp</a></td>
+		<td> 완<a href="Manager/allmembermanage.jsp">allmembermanage.jsp</a></td>
 	</tr>
 	<tr>
-		<td><a href="Manager/addmember.jsp">addmember.jsp</a></td>
+		<td> 완<a href="Manager/addmember.jsp">addmember.jsp</a></td>
 	</tr>
 	<tr>
-		<td><a href="Manager/modmember.jsp">modmember.jsp</a></td>
+		<td>완<a href="Manager/modmember.jsp">modmember.jsp</a></td>
 		</tr>
 	<tr>
 		<td><a href="Manager/deptinfo.jsp">deptinfo.jsp</a></td>
