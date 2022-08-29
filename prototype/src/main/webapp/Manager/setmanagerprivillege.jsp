@@ -40,7 +40,7 @@ function enterkey() {
 	<div id="managerListSide">
 	<div id="managerSetName">기본 관리자</div>
 	<input id="delManager" type="button" class="btnStyle"value="삭제" onclick="delManager()">
-	
+	<input id="ChangeAdmin" type="button" class="btnStyle"value="권한 위임" onclick="changeAdmin()">
 	<div id="managerListSideTitle">
 	<div class="managerPrivilegeName">이름</div>
 	<div class="managerPrivilegedept">부서</div>

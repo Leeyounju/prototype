@@ -45,7 +45,8 @@ function checkAll(checkAll){
 						<td class="td2">부서</td>
 						<td class="td3">직위</td>
 						<td class="td4">직급</td>
-						<td class="td5">이메일</td>
+						<td class="td5" style="margin-right: 5rem;">이메일</td>
+						<td class="td6">계정 잠금</td>
 						
 					</tr>
 			
