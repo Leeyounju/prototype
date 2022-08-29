@@ -44,8 +44,15 @@ function enterkey() {
 	<div id="managerListSideTitle">
 	<div class="managerPrivilegeName">이름</div>
 	<div class="managerPrivilegedept">부서</div>
-
 	</div>
+	<div id="managerList" class="managerList" style="border: 1px solid #888888;
+    width: 25rem;
+    height: 17rem;
+    overflow: scroll;
+    margin-top: 20px;">
+      관리자 리스트가 나오는 공간입니다
+      </div>
+	
 	
 	</div>
 

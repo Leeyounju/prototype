@@ -367,7 +367,7 @@ p{
      width: 29rem;
     height: 30rem;
     padding: 20px;
-    /* box-shadow: 7px 0px 0px 0px grey; */
+   
     position: relative;
     flex-flow: nowrap;
 	
@@ -410,6 +410,14 @@ p{
 #managerListSideTitle {
 	display:flex;
 	    justify-content: space-around;
+	     position: static;
+}
+.managerList {
+	border: 1px solid #888888;
+    width: 25rem;
+    height: 17rem;
+    overflow: scroll;
+    margin-top: 15px;
 }
 .managerPrivilegeName {
 	flex-flow: nowrap;
