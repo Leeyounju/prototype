@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* 부서 통합관리 페이지 */
+
+.allDeptManagementTitle {
+	margin-left: 3rem;
+    margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.btnBox {
+	margin-left: 3rem;
+    margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.deptList {
+    width: 50rem;
+    height: 30rem;
+    text-align: center;
+    border: 1px solid #666666;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.deptMainTitle {
+	
+	font-size: 15px;
+    /* border-bottom: 1px solid #666666; */
+}
