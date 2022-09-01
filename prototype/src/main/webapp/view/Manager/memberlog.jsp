@@ -5,11 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/memberlog.css">
 <title>멤버 접속 로그</title>
 </head>
 <body>
 <div id="import">
-<%@ include file="menu.jsp" %>
+<%@ include file="managermenu.jsp" %>
 </div>
 <div id="contents">
 <!-- 멤버 로그 검색 -->

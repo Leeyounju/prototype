@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/setmanagerprivillege.css">
 <title>관리자 권한 설정</title>
 <script>
 
@@ -14,14 +15,14 @@ function enterkey() {
 	 
 	             // 엔터키가 눌렸을 때 실행할 내용
 	             searchMember();
-	        }
+	  }
 	}
 
 </script>
 </head>
 <body>
 <div id="import">
-<%@ include file="menu.jsp" %>
+<%@ include file="managermenu.jsp" %>
 </div>
 
 <div id="contents">
@@ -40,12 +41,19 @@ function enterkey() {
 	<div id="managerListSide">
 	<div id="managerSetName">기본 관리자</div>
 	<input id="delManager" type="button" class="btnStyle"value="삭제" onclick="delManager()">
-	
+	<input id="ChangeAdmin" type="button" class="btnStyle"value="권한 위임" onclick="changeAdmin()">
 	<div id="managerListSideTitle">
 	<div class="managerPrivilegeName">이름</div>
 	<div class="managerPrivilegedept">부서</div>
-
 	</div>
+	<div id="managerList" class="managerList" style="border: 1px solid #888888;
+    width: 25rem;
+    height: 17rem;
+    overflow: scroll;
+    margin-top: 20px;">
+      관리자 리스트가 나오는 공간입니다
+      </div>
+	
 	
 	</div>
 

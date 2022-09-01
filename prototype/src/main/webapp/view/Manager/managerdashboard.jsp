@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/managerdashboard.css">
 <title>managerDashboard</title>
 <script>
 
@@ -12,7 +13,7 @@
 </head>
 <body>
 <div id="import">
-<%@ include file="menu.jsp" %>
+<%@ include file="managermenu.jsp" %>
 </div>
 
 <div id="contents">
