@@ -1,18 +1,27 @@
 @charset "UTF-8";
-
-/* 웹폰트 */
-
-@font-face {
-    font-family: 'KOTRA_GOTHIC';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/KOTRA_GOTHIC.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+/* 전체 화면 style 영역 */
+a{
+	cursor:pointer;
 }
-
+*{
+	font-family: 'LeferiBaseType-RegularA';
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  	color: black;
+  	text-decoration: none; 
+}
 body{
 	top:0;
 	left:0;
 	overflow:hidden;
+	width: 1920px;
+}
+@font-face {
+    font-family: 'LeferiBaseType-RegularA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 #header{
 	top:0;
@@ -23,11 +32,43 @@ body{
 	left:15rem;
 	height:4rem;
 }
-/* 메뉴에 있는 로그아웃, 프로필 */
+#menuList{
+	top:0;
+	left:0;
+	border:1px solid #333;
+	float:left;
+	position:absolute;
+	width:15rem;
+	height:100%;
+	background-color : #E6E6E6;
+}
+#contents{
+	position:absolute;
+	top:4rem;
+	left:15rem;
+	width:100vw;
+}
+/* 로고 div 영역 */
+#logo{
+	width:15rem;
+	height:5rem;
+	background-color:#E6E6E6;
+	overflow: hidden;
+	margin-bottom: 1.8rem;
+}
+#logo_img{
+	margin:0 auto;
+	margin-top:0.6rem;
+	width:12rem;
+	height:4rem;
+	background: url("../image/Logo.png") no-repeat;
+	background-size : 12rem;
+}
+
+ /* 메뉴에 있는 로그아웃, 프로필 */
 #myPic, #logOutBtn{
-    float: right;
-    margin-right:1rem;
-    
+	float: right;
+	margin-right:1rem;
 }
 /* 사진영역  */
 #myPic {
@@ -44,71 +85,7 @@ text-align: center;
 	text-align: center;
 	margin-top: 1rem;
 	line-height: 30px;
-	
 }
-/* 대시보드 사용자 프로필 */
-#userInfo{
-	position:relative;
-	border: 1px solid #333;
-	top: 4rem;
-	left: 3rem;
-	width:15rem;
-	height:15rem;
-	text-align:center;
-/* 	position: static; */
-}
-#memberPicture, #memberName, #memberDept{
-	width:100%;
-}
-#memberPicture{
-	height:10rem;
-	background-color:#333;
-}
-
-/* 메뉴 전체 영역 */
-#menuList{
-	top:0;
-	left:0;
-	border:1px solid #333;
-	float:left;
-	position:absolute;
-	width:15rem;
-	height:100%;
-	background-color : #E6E6E6;
-}
-/* contents 영역 */
-#contents{
-	position:absolute;
-	top:4rem;
-	left:15rem;
-	width: 100vw;
-}
-/* 로고 div 영역 */
-#logo{
-	width:15rem;
-	height:4rem;
-	background-color:#E6E6E6;
-	overflow: hidden;
-	margin-bottom: 3rem;
-}
- /* 로고 이미지 영역*/
-#logo > img {
-top:0;
-left:0;
-  position: absolute;
-  width: 100%;
-}
-/* 전체 화면 style 영역 */
-*{
-	  font-family: 'KOTRA_GOTHIC';
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  	color: black;
-  	text-decoration: none; 
-}
-
-
 /* 아코디언 메뉴 설정 */
 
 .mainMenu{
@@ -143,8 +120,9 @@ left:0;
 }
 .subMenu{
     overflow: hidden;
-    transition: max-height 0.7s;
+    transition: max-height 0.4s;
     max-height: 0;
+    margin-left:1.3rem;
 }
 .subMenu a{
     display: block;
@@ -193,40 +171,8 @@ left:0;
     border:none;
 }
 .item:target .subMenu{
-    max-height: 10em;
+    max-height: 20em;
 }
-/* 관리자 대시보드- 관리자 리스트 */
-/* 리스트 틀 */
-
-#managerInfo {
-	margin-top : 6rem;
-}
-
-#manager_name {
-	float:left;
-	margin-left: 10rem;
-	padding: 20px;
-}
-
-#manager_dept {
-	float:left;
-	padding: 20px;
-	margin-left: 7rem;
-}
-#manager_num {
-	float:left;
-	padding: 20px;
-	margin-left: 7rem;
-}
-#manager_dir {
-	float:left;
-	padding: 20px;
-	margin-left: 7rem;
-}
-hr {
-	width: 80vw;
-}
-
 /*멤버 접속 로그 */
 /* 이름, input, 검색버튼을 감싸는 div */
 #searchUser {
