@@ -23,25 +23,44 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+/* 큰 버튼 통합 css */
+.userBtn{
+	border: 2px solid #17B69B;
+	width:16rem;
+	font-weight:bold;
+	color:#17B69B;
+	font-size:1.8rem;
+	cursor: pointer;
+	padding-top:0.5rem;
+	transition: all 0.3s;
+}
+.userBtn:hover{
+	color:#fff;
+	border:2px solid #17B69B;
+	background-color:#17B69B;
+	transition: all 0.3s;
+}
+/* 헤더 영역 */
 #header{
 	top:0;
-	border:1px solid #333;
 	float:left;
 	position:absolute;
 	width:105rem;
 	left:15rem;
 	height:4rem;
 }
+/* 메뉴바 영역 */
 #menuList{
 	top:0;
 	left:0;
-	border:1px solid #333;
+	border-right:1px solid #ccc;
 	float:left;
 	position:absolute;
 	width:15rem;
 	height:100%;
 	background-color : #E6E6E6;
 }
+/* 콘텐츠 영역 */
 #contents{
 	position:absolute;
 	top:4rem;
@@ -66,25 +85,35 @@ body{
 }
 
  /* 메뉴에 있는 로그아웃, 프로필 */
-#myPic, #logOutBtn{
+#logOutBtn, #myPic{
 	float: right;
-	margin-right:1rem;
 }
 /* 사진영역  */
 #myPic {
 	background-color:#c0c0c0;
 	width: 6rem;
 	height:4rem;
-text-align: center;
+	text-align: center;
+	margin-right:1rem;
 }
 /* 로그아웃 버튼 */
 #logOutBtn {
-	background-color:#c0c0c0;
+	background-color:#fff;
+	border:1px solid #17B69B;
+	color:#17B69B;
 	width: 7rem;
 	height: 2.5rem;
 	text-align: center;
-	margin-top: 1rem;
-	line-height: 30px;
+	margin-top: 0.78rem;
+	line-height: 45px;
+	cursor:pointer;
+	margin-right:1.2rem;
+		transition: all 0.3s;
+}
+#logOutBtn:hover {
+	background-color:#17B69B;
+	color:#fff;
+	transition: all 0.3s;
 }
 /* 아코디언 메뉴 설정 */
 
@@ -145,13 +174,11 @@ text-align: center;
     left: 0;
     top:0;
     opacity: 1;
-
 }
 .subMenu a:after{
     content: '';
     opacity: 0;
     transition: opacity 0.3s;
-
 }
 .subMenu a:hover:after{
     content: '';
@@ -161,7 +188,6 @@ text-align: center;
     right: 0px;
     top:0;
     opacity: 1;
-
 }
 .subMenu a:hover{
      transition: all 0.3s;
@@ -174,26 +200,13 @@ text-align: center;
     max-height: 20em;
 }
 
-
-
-
-/*작은 버튼*/
 .btnStyle{
-	flex-flow: nowrap;
-    width: 7rem;
+    flex-flow: nowrap;
+    width: 4rem;
     padding: .2em .45em;
-	background-color: #fdfdfd;
-	color: #999;
-	cursor: pointer;
-	border: 1px solid #ebebeb;
-	border-radius: .25em;
+    background-color: #fdfdfd;
+    color: #999;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-radius: .25em;
 }
-
-
-
-
-
-
-
-
-
