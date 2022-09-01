@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* 멤버 추가 */
+.addMemberTitle {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+#newMemberInfo{
+	
+	position:relative;
+	border: 1px solid #333;
+	top: 4rem;
+	left: 3rem;
+	width:7rem;
+	height:7rem;
+	text-align:center;
+	
+}
+#newmemberPicture{
+	
+	width: 100%;
+}
+#newMemberFile{
+	margin-top: 7rem;
+	margin-left: 3rem;
+	
+}
+#newMemberFile label {
+	display: inline-block;
+	padding: .2em .45em;
+	background-color: #fdfdfd;
+	color: #999;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+	border-radius: .25em;
+}
+#input_file {
+	position: absolute;
+	padding:0;
+	border:0;
+	margin:-1px;
+	overflow:hidden;
+	clip: rect(0,0,0,0);
+}
+
+.inputBox {
+	width:  150px;
+	margin-left: 2rem;
+}
+.select-box {
+		width:  100px;
+	margin-left: 2rem;
+}
+
+/* 이름 아이디~ 전체 영역 */
+#inputInfo{
+	align-items: baseline;
+	display: flex;
+}
+/* 제목 */
+#addMemberSide {
+	margin-left: 3rem;
+       margin-top: 4rem;
+   flex-flow:nowrap;
+}
+
+#inputBoxSide {
+	
+	 right: 20%;
+}
+#addBtnSide {
+	margin-top: 3rem;
+}
+
+#newMemberName {
+	margin-bottom: 20px;
+}
+#newMemberId {
+	margin-bottom: 20px;
+}
+#newMemberPassword {
+	margin-bottom: 20px;
+}
+#newMemberPositon {
+	margin-bottom: 20px;
+}
+#newMemberDept {
+	margin-bottom: 20px;
+}
+#selectPosition {
+	margin-bottom: 20px;
+}
+
+#isEmail {
+	margin-left: 2rem;
+}

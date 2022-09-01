@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 부서별 페이지 */
+
+.deptInfoTitle{
+	margin-left: 3rem;
+    margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#memberInfoSide {
+	height: 30rem;
+	width: 70rem;
+	border: 1px solid #666666;
+	margin-left: 3rem;
+}
+#memberList_title {
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+        margin-top: 30px;
+}
+.selectDeptBox {
+	margin-left: 3rem;
+		margin-bottom: 2rem;
+}
+#member_name {
+	flex-flow:nowrap
+}
+#member_potition{
+	flex-flow:nowrap
+}
+#member_email{
+	flex-flow:nowrap
+}
+#member_num{
+	flex-flow:nowrap
+}
+#member_dir{
+	flex-flow:nowrap
+}
+
+

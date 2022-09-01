@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* 멤버 통합관리 페이지 */
+#allContentsSide {
+
+		  top: 4rem;
+    left: 3rem;
+     width: 50rem;;
+    height: 30rem;
+    padding: 20px;
+   /*   box-shadow: 7px 0px 0px 0px grey;*/
+    position: relative;
+	
+}
+
+.MoveAddMember{
+	float:left;
+	margin-right: 2rem;
+}
+.DeleteMember{
+float:left;
+	margin-right: 2rem;
+}
+.UnlockMember {
+float:left;
+}
+
+#table1 {
+	left:0;
+
+}
+#fields{
+
+	margin-top: 5rem;
+	
+}
+.td0{
+	margin-right: 3rem;
+}
+.td1{
+	margin-right: 5rem;
+}
+.td2{
+	margin-right: 5rem;
+}
+.td3{
+	margin-right: 5rem;
+}
+.td4{
+	margin-right: 5rem;
+}
+.td5{
+	    margin-right: 5rem;
+}

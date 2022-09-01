@@ -5,6 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/formmanagement.css">
+<link rel="stylesheet" href="../css/modmember.css">
+<link rel="stylesheet" href="../css/addmember.css">
+<link rel="stylesheet" href="../css/deptinfo.css">
 <title>부서별 페이지</title>
 <script>
 

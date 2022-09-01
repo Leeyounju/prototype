@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/allmembermanage.css">
 <title>멤버 통합관리</title>
 <script>
 

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*멤버 접속 로그 */
+/* 이름, input, 검색버튼을 감싸는 div */
+#searchUser {
+display: flex;
+    top: 4rem;
+    left: 3rem;
+    width: 25rem;
+    padding: 20px;
+    box-shadow: 7px 7px 7px gray;
+    position: relative;
+    justify-content: space-between;
+}
+#nameSide {
+	flex-flow: nowrap;
+
+}
+/* 인풋박스 */
+#searchMemberBox {
+		    flex-flow: nowrap;
+    width: 250px;
+
+}
+
+#SearchMemberLog {
+
+	flex-flow: nowrap;
+    width: 3rem;
+     height: 1.8rem;
+    background-color: #17B69B;
+    border: none;
+}
+
+
+/* 멤버 접속로그를 보여주는 리스트의 타이틀 전체 div */
+#memberLogInfo {
+		float:left;
+	    margin-top: 15rem;
+}
+
+#memberLogInfo_time{
+	float:left;
+	 margin-right: 5rem;
+    margin-left: 7rem;
+}
+#memberLogInfo_name{
+	    margin-right: 7rem;
+		float:left;
+}
+#memberLogInfo_dept{
+		float:left;
+		margin-right: 7rem;
+}
+#memberLogInfo_state{
+		float:left;
+		margin-right: 7rem;
+}
+#memberLogInfo_category{
+		float:left;
+		margin-right: 7rem;
+}
+#memberLogInfo_ip{
+		float:left;
+}

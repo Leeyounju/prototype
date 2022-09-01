@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/setmanagerprivillege.css">
 <title>관리자 권한 설정</title>
 <script>
 

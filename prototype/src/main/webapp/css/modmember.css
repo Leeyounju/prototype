@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* 멤버 수정 */
+.modMemberTitle {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+#modMemberSide {
+	margin-left: 3rem;
+  margin-top: 12rem;
+  	flex-flow:nowrap;
+}
+#modBtnSide {
+	margin-top: 3rem;
+	  flex-flow:nowrap;
+}

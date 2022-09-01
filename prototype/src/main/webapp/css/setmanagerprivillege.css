@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* 관리자 권한 설정 */
+#managerPrivilege {
+	    top: 4rem;
+    left: 3rem;
+     width: 29rem;
+    height: 30rem;
+    padding: 20px;
+   
+    position: relative;
+    flex-flow: nowrap;
+	
+}
+.addManager {
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.memberList {
+	border: 1px solid #888888;
+    width: 25rem;
+    height: 17rem;
+    margin-top: 15px;
+    overflow: scroll;
+}
+.searchManager{
+	  width: 13rem;
+	 height: 1.8rem;
+}
+#contentSide {
+	display:flex;
+}
+
+/* 오른쪽 영역 */
+#managerListSide {
+	flex-flow: nowrap;
+	    top: 4rem;
+    left: 5rem;
+     width: 29rem;
+    height: 30rem;
+    padding: 20px;
+  
+    position: relative;
+}
+#delManager{
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+#managerListSideTitle {
+	display:flex;
+	    justify-content: space-around;
+	     position: static;
+}
+.managerList {
+	border: 1px solid #888888;
+    width: 25rem;
+    height: 17rem;
+    overflow: scroll;
+    margin-top: 15px;
+}
+.managerPrivilegeName {
+	flex-flow: nowrap;
+}
+.managerPrivilegedept {
+		flex-flow: nowrap;
+}
