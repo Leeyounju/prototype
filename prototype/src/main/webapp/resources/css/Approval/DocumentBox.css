@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* title */
+#Title{
+	margin-top: 2rem;
+	margin-left: 2rem;
+	font-size:1.6rem;
+	font-weight: bold;
+}
+/* 리스트 영역 css */
+.DocumentBoxBody{
+	height:40rem;
+	overflow:auto;
+	overflow-x:none;
+	margin-top:0.3rem;
+	margin-bottom:0.3rem;
+	
+}
+.DocumentBoxBody::-webkit-scrollbar{
+	width: 3px;
+}
+.DocumentBoxBody::-webkit-scrollbar-thumb{
+	background-color: #333;
+}
+.DocumentBoxBody::-webkit-scrollbar-track{
+	background-color: rgba( 0, 0, 0, 0.0 );
+}
+/****************************************************/
+#KeepApprovalBox{
+	text-align:center;
+	position:relative;
+	border-bottom: 1px solid #333;
+	top: 6rem;
+	left: 3rem;
+	width:97.5rem;
+	height:40rem;
+}
+

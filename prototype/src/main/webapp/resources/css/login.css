@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*************************************/
+/* 로그인, 패스워드 찾기                   */
+/*************************************/
+/* 화면 중앙정렬 */
+#contents{
+	transform: translate(170%, 70%);
+	width:20rem;
+}
+#loginBox{
+	text-align:center;
+}
+/* 로고 사이즈, 경로 */
+#login_logo{
+	margin-bottom:4rem;
+	padding: 0 auto;
+	width:16rem;
+	height:5rem;
+	background: url("../image/Logo.png") no-repeat;
+	background-size : cover;
+	overflow: hidden;
+}
+/* input box 영역 */
+input{
+	font-size : 1rem;
+	font-weight:bold;
+	color:#333;
+	border : 0px;
+	height:1.8rem;
+	width:15rem;
+}
+input:focus {
+	outline:none;
+	}
+#input_area1:focus-within, #input_area2:focus-within{
+	border: 2px solid #17B69B;
+}
+#input_area1{
+	border-radius: 10px 10px 0 0;
+}
+#input_area2{
+	border-radius: 0 0 10px 10px;
+}
+.input_area{
+	width:16rem;
+	height:2rem;
+	border: 2px solid #999;
+}
+/* 로그인, 비밀번호 찾기 버튼 */
+.loginBtn{
+	width:16rem;
+	font-weight:bold;
+	color:#17B69B;
+	border:2px solid #17B69B;
+	margin-top:1.3rem;
+	font-size:1.2rem;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.loginBtn:hover{
+	color:#fff;
+	border:2px solid #17B69B;
+	background-color:#17B69B;
+	 transition: all 0.3s;
+}

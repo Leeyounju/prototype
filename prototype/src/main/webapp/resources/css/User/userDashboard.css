@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* 대시보드 사용자 프로필 */
+#userInfo{
+	position:relative;
+	border: 1px solid #333;
+	top: 4rem;
+	left: 3rem;
+	width:15rem;
+	height:15rem;
+	text-align:center;
+}
+#memberPicture, #memberName, #memberDept{
+	width:100%;
+}
+#memberPicture{
+	height:10rem;
+	background-color:#333;
+}
+
+
+/* 대시보드 결재 대기 문서함 */
+#KeepApprovalBox{
+	text-align:center;
+	position:relative;
+	border-bottom: 1px solid #333;
+	top: 6rem;
+	left: 3rem;
+	width:97.5rem;
+	float:left;
+}
+/* 대시보드 기안 문서함 */
+#DraftBox{
+	text-align:center;
+	position:relative;
+	border-bottom: 1px solid #333;
+	top: 9rem;
+	left: 3rem;
+	width:97.5rem;
+	float:left;
+}
+.DraftDay, .Urgent,.ApprovalForm,.DocumentName,.ApprovalState,.ApprovalNumber{
+		float:left;
+		margin-left:2rem;
+		margin-right:2rem;
+		height:2rem;	
+}
+/* 결재대기, 기안 문서 리스트  */
+.DocumentHead{
+	width:97.5rem;
+	height:2rem;
+	font-weight:bold;
+	border-bottom: 1px solid #333;
+}
+/* 기안일 */
+.DraftDay{
+	width:15rem;
+}
+/* 결재양식 */
+.ApprovalForm{
+	width:15rem;
+}
+/* 긴급 */
+.Urgent{
+	width:5rem;
+}
+/* 제목 */
+.DocumentName{
+	width:30rem;
+}
+/* 결재상태 */
+.ApprovalState{
+	width:10rem;
+}
+/* 문서 번호 */
+.ApprovalNumber{
+	width:15rem;
+}
+/****************************************/
+/* 리스트 css */
+/****************************************/
+.DocumentBody{
+	height:10rem;
+	overflow:auto;
+	overflow-x:none;
+	margin-top:0.3rem;
+	margin-bottom:0.3rem;
+	
+}
+.DocumentBody::-webkit-scrollbar{
+	width: 3px;
+}
+.DocumentBody::-webkit-scrollbar-thumb{
+	background-color: #333;
+}
+.DocumentBody::-webkit-scrollbar-track{
+	background-color: rgba( 0, 0, 0, 0.0 );
+}
+/* DocumentBody의 자식 DIV */
+.dbody{
+	padding-top:0.5rem;
+	font-size:1.2rem;
+	height:2rem;
+	cursor:pointer;
+	transition: all 0.3s;
+}
+.dbody:hover{
+	color:#fff;
+	background-color:#e6e6e6;
+	transition: all 0.3s;
+}
