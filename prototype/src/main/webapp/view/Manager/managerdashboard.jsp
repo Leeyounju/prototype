@@ -4,8 +4,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../css/main.css">
-<link rel="stylesheet" href="../css/managerdashboard.css">
+
+<link rel="stylesheet" href="../../resources/css/Manager/managerdashboard.css">
+<link rel="stylesheet" href="../../resources/css/Manager/main.css">
+<link rel="stylesheet" href="../../resources/css/Manager/addmember.css">
+<link rel="stylesheet" href="../../resources/css/Manager/alldeptmanagement.css">
+<link rel="stylesheet" href="../../resources/css/Manager/deptinfo.css">
+<link rel="stylesheet" href="../../resources/css/Manager/login.css">
+<link rel="stylesheet" href="../../resources/css/Manager/memberlog.css">
+<link rel="stylesheet" href="../../resources/css/Manager/modmember.css">
+<link rel="stylesheet" href="../../resources/css/Manager/setmanagerprivillege.css">
+<link rel="stylesheet" href="../../resources/css/Manager/formmanagement.css">
+
 <title>managerDashboard</title>
 <script>
 

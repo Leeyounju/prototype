@@ -2,7 +2,9 @@
     pageEncoding="UTF-8"%>
 
 <div id="menuList">
-<div id="logo" onclick="movePage('MoveManagerDashboard')"><img src="/image/Logo.png" ></div>
+<div id="logo" onclick="movePage('MoveManagerDashboard')">
+	<div id="logo_img"></div>
+</div>
 
 
   <div class="wrapper">
@@ -44,6 +46,7 @@
 
 
 <div id="header">
-	<div id="myPic">picture</div>
+	
 	<div id="logOutBtn">logOut</div>
+		<div id="myPic">picture</div>
 </div>
