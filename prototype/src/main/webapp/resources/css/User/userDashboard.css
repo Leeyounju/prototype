@@ -39,7 +39,7 @@
 	width:97.5rem;
 	float:left;
 }
-.DraftDay, .Urgent,.ApprovalForm,.DocumentName,.ApprovalState,.ApprovalNumber{
+.DraftDay, .Urgent,.ApprovalForm,.DocumentName,.ApprovalState,.ApprovalNumber,.Blank{
 		float:left;
 		margin-left:2rem;
 		margin-right:2rem;
@@ -62,7 +62,7 @@
 }
 /* 긴급 */
 .Urgent{
-	width:5rem;
+	width:6.2rem;
 }
 /* 제목 */
 .DocumentName{
@@ -75,6 +75,10 @@
 /* 문서 번호 */
 .ApprovalNumber{
 	width:15rem;
+}
+/* 공백영역 */
+.Blank{
+	width:6.2rem;
 }
 /****************************************/
 /* 리스트 css */

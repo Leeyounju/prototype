@@ -7,6 +7,15 @@
 	font-size:1.6rem;
 	font-weight: bold;
 }
+#DocumentBox{
+	text-align:center;
+	position:relative;
+	border-bottom: 1px solid #333;
+	top: 3rem;
+	left: 3rem;
+	width:97.5rem;
+	float:left;
+}
 /* 리스트 영역 css */
 .DocumentBoxBody{
 	height:40rem;
