@@ -43,60 +43,38 @@
 		<tr>
 		<th>결재, 문서 페이지 진행 현황</th>
 	</tr>
-	<tr>
-		<td><a href=""></a></td>
-	</tr>
 	<tr>	
-		<td><a href="view/Approval/writedraft.jsp">writedraft.jsp</a></td>	
+		<td>완?<a href="view/Approval/keepapprovalbox.jsp">keepapprovalbox.jsp</a></td>	
 	</tr>
-	<tr>	
-		<td><a href="view/Approval/keepapprovalbox.jsp">keepapprovalbox.jsp</a></td>	
-	</tr>
-	<tr>	
-		<td><a href="view/Approval/keepapproval.jsp">keepapproval.jsp</a></td>	
-	</tr>
+
 		<tr>	
 		<td><a href="view/Approval/draftbox.jsp">draftbox.jsp</a></td>	
 	</tr>
-		<tr>	
-		<td><a href="view/Approval/draft.jsp">draft.jsp</a></td>	
-	</tr>
+
 		<tr>	
 		<td><a href="view/Approval/approvalbox.jsp">approvalbox.jsp</a></td>	
 	</tr>
-		<tr>	
-		<td><a href="view/Approval/approval.jsp">approval.jsp</a></td>	
-	</tr>
+
 		<tr>	
 		<td><a href="view/Approval/referencereadbox.jsp">referencereadbox.jsp</a></td>	
 	</tr>
-		<tr>	
-		<td><a href="view/Approval/referenceread.jsp">referenceread.jsp</a></td>	
-	</tr>
+
 		<tr>	
 		<td><a href="view/Approval/receptionbox.jsp">receptionbox.jsp</a></td>	
 	</tr>
-		<tr>	
-		<td><a href="view/Approval/reception.jsp">reception.jsp</a></td>	
-	</tr>
+
 		<tr>	
 		<td><a href="view/Approval/sendbox.jsp">sendbox.jsp</a></td>	
 	</tr>
-		<tr>	
-		<td><a href="view/Approval/send.jsp">send.jsp</a></td>	
-	</tr>
+
 		<tr>	
 		<td><a href="view/Approval/deptreferencebox.jsp">deptreferencebox.jsp</a></td>	
 	</tr>
-		<tr>	
-		<td><a href="view/Approval/deptreference.jsp">deptreference.jsp</a></td>	
-	</tr>
+
 		<tr>	
 		<td><a href="view/Approval/deptreceptionbox.jsp">deptreceptionbox.jsp</a></td>	
 	</tr>
-		<tr>	
-		<td><a href="view/Approval/deptreception.jsp">deptreception.jsp</a></td>	
-	</tr>
+
 	<tr>
 		<td>-------------------------------------------------------</td>
 	</tr>
