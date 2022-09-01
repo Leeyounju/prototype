@@ -173,6 +173,41 @@ text-align: center;
 .item:target .subMenu{
     max-height: 20em;
 }
+<<<<<<< HEAD
+=======
+/* 관리자 대시보드- 관리자 리스트 */
+/* 리스트 틀 */
+
+#managerInfo {
+	margin-top : 6rem;
+}
+
+#manager_name {
+	float:left;
+    margin-left: 2rem;
+	padding: 20px;
+}
+
+#manager_dept {
+	float:left;
+	padding: 20px;
+	margin-left: 7rem;
+}
+#manager_num {
+	float:left;
+	padding: 20px;
+	margin-left: 7rem;
+}
+#manager_dir {
+	float:left;
+	padding: 20px;
+	margin-left: 7rem;
+}
+hr {
+	width: 80vw;
+}
+
+>>>>>>> branch 'main' of https://github.com/Leeyounju/prototype.git
 /*멤버 접속 로그 */
 /* 이름, input, 검색버튼을 감싸는 div */
 #searchUser {
@@ -576,3 +611,5 @@ float:left;
 #member_dir{
 	flex-flow:nowrap
 }
+
+
