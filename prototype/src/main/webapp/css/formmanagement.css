@@ -1,27 +1,72 @@
 @charset "UTF-8";
-/* 부서 통합관리 페이지 */
+/* 양식관리 페이지 */
 
-.allDeptManagementTitle {
-	margin-left: 3rem;
-    margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-.btnBox {
-	margin-left: 3rem;
-    margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-.deptList {
-    width: 50rem;
-    height: 30rem;
-    text-align: center;
-    border: 1px solid #666666;
-    margin-left: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.deptMainTitle {
+
+#FormSetName {
 	
-	font-size: 15px;
-    /* border-bottom: 1px solid #666666; */
+	margin-left: 3rem;
+    margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#manageFormSide {
+    top: 4rem;
+    left: 3rem;
+    width: 70rem;
+    height: 30rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+	
+
+#category {
+	flex-flow: nowrap;
+
+}
+#addCategory {
+	margin-right: 2rem;width: 6rem;
+}
+#modCategory {
+	margin-right: 2rem;width: 6rem;
+}
+#delCategory {
+	/* margin-right: 2rem; */
+		width: 6rem;
+}
+
+#formListSide {
+	flex-flow: nowrap;
+}
+#addForm {
+	margin-right: 2rem;
+}
+#addForm, #delForm{
+	
+ margin-bottom: 2rem;
+ 
+}
+#FormListTitle {
+	    width: 5rem;
+	        position: static;
+	    margin-bottom: 2rem;
+}
+#FormList {
+	border: 1px solid #666666;
+    height: 30rem;
+    width: 26rem;
+    overflow: scroll;
+}
+
+
+#CategoryList {
+	border: 1px solid #666666;
+    height: 30rem;
+    width: 26rem;
+    overflow: scroll;
+}
+#searchForm {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 13rem;
+    height: 1.5rem;
 }
