@@ -180,7 +180,7 @@ text-align: center;
 /*작은 버튼*/
 .btnStyle{
 	flex-flow: nowrap;
-    width: 4rem;
+    width: 7rem;
     padding: .2em .45em;
 	background-color: #fdfdfd;
 	color: #999;

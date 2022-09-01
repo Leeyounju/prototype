@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="../../resources/css/Manager/addmember.css">
 <link rel="stylesheet" href="../../resources/css/Manager/alldeptmanagement.css">
 <link rel="stylesheet" href="../../resources/css/Manager/deptinfo.css">
-<link rel="stylesheet" href="../../resources/css/Manager/login.css">
+
 <link rel="stylesheet" href="../../resources/css/Manager/memberlog.css">
 <link rel="stylesheet" href="../../resources/css/Manager/modmember.css">
 <link rel="stylesheet" href="../../resources/css/Manager/setmanagerprivillege.css">
