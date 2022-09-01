@@ -23,7 +23,7 @@
 </head>
 <body>
 	<div id="import">
-		<%@ include file="menu.jsp"%>
+		<%@ include file="managermenu.jsp"%>
 	</div>
 
 	<div id="contents">

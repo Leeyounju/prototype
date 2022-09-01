@@ -15,14 +15,14 @@ function enterkey() {
 	 
 	             // 엔터키가 눌렸을 때 실행할 내용
 	             searchMember();
-	        }
+	  }
 	}
 
 </script>
 </head>
 <body>
 <div id="import">
-<%@ include file="menu.jsp" %>
+<%@ include file="managermenu.jsp" %>
 </div>
 
 <div id="contents">
