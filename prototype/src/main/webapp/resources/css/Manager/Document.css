@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+#content {
+	position: absolute;
+	top: 4rem;
+	left: 6rem;
+	width: 100vw;
+}
+
+/* 타이틀 */
+#Title {
+	margin-left: 13rem;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+/* 제목 */
+#docTitle {
+	margin-top: 1rem;
+	margin-bottom: 1rem; margin-left : 13rem;
+	font-size: 1.3rem;
+	margin-left: 13rem;
+}
+/* 제목제외한 전체 영역 */
+#documentSide {
+	display: flex;
+	justify-content: space-around;
+}
+/* 왼쪽, 오른쪽 영역 분리 */
+#leftSide {
+	float: left;
+	margin-left: 3rem;
+	width: 45rem;
+}
+
+#rightSide {
+	float: right;
+}
+/* 왼쪽의 위 아래 영역 분리 */
+#upSide {
+	display: flex;
+	padding-bottom: 1rem;
+	justify-content: space-between;
+}
+
+#docDiv {
+	flex-flow: nowrap;
+	background-color: #E6E6E6;
+	width: 14rem;
+	padding: 0.6rem;
+}
+/* 문서정보 클래스 */
+.docInfo {
+	margin: 0.2rem;
+}
+
+#signDiv {
+	flex-flow: nowrap;
+	border: 1px solid #333;
+	width: 24rem;
+	display: flex;
+	overflow: auto;
+	white-space: nowrap;
+}
+/* 사인 스크롤 영역 */
+.signDiv::-webkit-scrollbar {
+	width: 3px;
+}
+
+.signDiv::-webkit-scrollbar-thumb {
+	background-color: #333;
+}
+
+.signDiv::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+#sepSign {
+	border: 1px solid #333;
+}
+/* 사인 영역 */
+#pos {
+	border-bottom: 1px solid #333;
+	text-align: center;
+	    width: 7rem;
+}
+
+#sign {
+	border-bottom: 1px solid #333;
+	text-align: center;
+	height: 5rem;
+}
+
+#date {
+	text-align: center;
+	    font-size: 13px;
+}
+#signHere{
+	    width: 35rem;
+    height: 8rem;
+    background-color: #eee;
+}
+/* signBtn */
+#signBtn{
+	margin-top: 10px;
+}
+
+/* pdf 영역 */
+#pdfDiv {
+	height: 31rem;
+	background-color: darkgrey;
+}
+/* 파일 영역 */
+#fileDiv {
+	background-color: #E6E6E6;
+	margin-top: 1rem;
+	overflow: auto;
+	overflow-x: none;
+	height: 4rem;
+}
+
+#fileSend {
+	margin-top: 1rem;
+}
+/* 파일 스크롤 영역 */
+.fileDiv::-webkit-scrollbar {
+	height: 3px;
+}
+
+.fileDiv::-webkit-scrollbar-thumb {
+	background-color: #333;
+}
+
+.fileDiv::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* 결재선 영역 */
+.approvalInfo {
+	width: 35rem;
+	height: 14.8rem;
+}
+/* 결재선 글자 영역 */
+.apvSide {
+	text-align: center;
+	/* margin-top: 0.5rem; */
+	border-top: 2px solid #333;
+	border-bottom: 2px solid #333;
+	padding: 0.3rem;
+	  
+}
+.apv{
+	  height: 10.8rem;
+}
+/* 목록 버튼 */
+#backBtn {
+	margin-top: 1rem;
+	float: right;
+}
+
+.bBtn {
+	width: 6rem;
+	height: 2rem;
+}
